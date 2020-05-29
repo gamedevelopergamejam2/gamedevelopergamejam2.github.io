@@ -8,4 +8,5 @@
  The счет.cs script is responsible for the timer.<br>
  The Score.cs script is responsible for how much time you just typed.<br>
  The timme.cs script is responsible for the quality of time blocks.<br>
- 
+ The Max.cs script is responsible for your maximum time.<br>
+ The Des.cs script is responsible for destroying the object in one second.
