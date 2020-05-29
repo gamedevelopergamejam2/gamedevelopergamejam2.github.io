@@ -5,4 +5,5 @@
  The препятствие1.cs script is responsible for the quality of red, green and blue blocks.<br>
  The черпрепятствие.cs script is responsible for the quality of black blocks.<br>
  The отсчет.cs script is responsible for scoring points.<br>
- The script is responsible for the timer.<br>
+ The счет.cs script is responsible for the timer.<br>
+ The Score.cs script is responsible for how much time you just typed.<br>
