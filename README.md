@@ -7,3 +7,4 @@
  The отсчет.cs script is responsible for scoring points.<br>
  The счет.cs script is responsible for the timer.<br>
  The Score.cs script is responsible for how much time you just typed.<br>
+ The timme.cs script is responsible for the quality of time blocks.
