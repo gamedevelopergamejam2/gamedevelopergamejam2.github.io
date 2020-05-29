@@ -41,42 +41,42 @@ public class Player : MonoBehaviour<br>
     // Start is called before the first frame update<br>
     void Start()<br>
     {
-        anim = GetComponent<Animator>();<br>
-        Stime = Starttime;<br>
-        Stime2 = Starttime;<br>
+        anim = GetComponent<Animator>();
+        Stime = Starttime;
+        Stime2 = Starttime;
     }
-    public IEnumerator ydyi4()<br>
+    public IEnumerator ydyi4()
     {
-        yield return new WaitForSeconds(1f);<br>
-        hgfc = false;<br>
-        ggf = false;<br>
+        yield return new WaitForSeconds(1f);
+        hgfc = false;
+        ggf = false;
 
     }
-    void Update()<br>
+    void Update()
     {
-        if(hgfc)<br>
+        if(hgfc)
         {
            
-            if (!ggf)<br>
+            if (!ggf)
             {
              
-                StartCoroutine(ydyi4());<br>
-                ggf = true;<br>
+                StartCoroutine(ydyi4());
+                ggf = true;
             }
         }
-        if (Stime > 0)<br>
-        {
+        if (Stime > 0)
+        
             Stime -= Time.deltaTime;
         }
 
         if (Stime2 > 0)
         {
-            Stime2 -= Time.deltaTime;<br>
+            Stime2 -= Time.deltaTime;
         }
-        //anim.SetInteger("hhj", posugol);<br>
-        //anim.SetInteger("fif", posugol2);<br>
-        anim.SetInteger("nuzu", nuz2);<br>
-        nuz = nuz2;<br>
+        //anim.SetInteger("hhj", posugol);
+        //anim.SetInteger("fif", posugol2);
+        anim.SetInteger("nuzu", nuz2);
+        nuz = nuz2;
         
     }
 
