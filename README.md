@@ -1,47 +1,46 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System.Collections;<br>
+using System.Collections.Generic;<br>
+using UnityEngine;<br>
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour<br>
 {
-    public int pos;
-    public int posugol2;
-    public int posugol;
-    public int ugol = 90;
-    public Transform pos1;
-    public Transform pos2;
-    public Transform pos3;
-    public Transform pos4;
-    public Transform pos5;
-    public Transform pos6;
-    public Transform pos7;
-    public Transform pos8;
-    public float Glspeed;
-    public bool hgfc;
-    bool gfh;
-    public bool gfh2;
-    bool hhuy;
-    Animator anim;
-    public bool jghtg;
-    public int nuz2;
-    public bool gfhrf;
-    public int nuz;
-    public bool hyfy;
-    public float Starttime;
-    public float Stime;
-    public float Stime2;
-    public bool ggf;
-    public bool jhfc;
-    public bool gdus;
-    public float gif;
-    public bool hlo;
-    public bool xlo;
-    public bool hu;
-    public GameObject Tim;
-    // Start is called before the first frame update
-    void Start()
+    public int pos;<br>
+    public int posugol2;<br>
+    public int posugol;<br>
+    public int ugol = 90;<br>
+    public Transform pos1;<br>
+    public Transform pos2;<br>
+    public Transform pos3;<br>
+    public Transform pos4;<br>
+    public Transform pos5;<br>
+    public Transform pos6;<br>
+    public Transform pos7;<br>
+    public Transform pos8;<br>
+    public float Glspeed;<br>
+    public bool hgfc;<br>
+    bool gfh;<br>
+    public bool gfh2;<br>
+    bool hhuy;<br>
+    Animator anim;<br>
+    public bool jghtg;<br>
+    public int nuz2;<br>
+    public bool gfhrf;<br>
+    public int nuz;<br>
+    public bool hyfy;<br>
+    public float Starttime;<br>
+    public float Stime;<br>
+    public float Stime2;<br>
+    public bool ggf;<br>
+    public bool jhfc;<br>
+    public bool gdus;<br>
+    public float gif;<br>
+    public bool hlo;<br>
+    public bool xlo;<br>
+    public bool hu;<br>
+    public GameObject Tim;<br>
+    // Start is called before the first frame update<br>
+    void Start()<br>
     {
-
         anim = GetComponent<Animator>();
         Stime = Starttime;
         Stime2 = Starttime;
